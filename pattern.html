@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Cyber Blackhole</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo.ico">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div id="navlink">
+          <a href="./index.html">
+            <div class="button">
+              <img src="./assets/grid.png" width="50px" />
+              <span class="navcaption">Grid</span>
+            </div>
+          </a>
+          <a href="./pattern.html">
+            <div class="button">
+              <img src="./assets/pattern.png" width="50px" />
+              <span class="navcaption">Pattern</span>
+            </div>
+          </a>
+          <a href="./reference.html">
+            <div class="button">
+              <img src="./assets/logic.png" width="50px" />
+              <span class="navcaption">Reference</span>
+            </div>
+          </a>
+        </div>
+      </nav>
+      <main>
+        <div class="loader-wrapper">
+          <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+        <div class="piecharts">
+          <canvas id="pieChart"></canvas>
+        </div>
+        <div class="charts">
+          <canvas id="barChart"></canvas>
+        </div>
+        <div class="charts">
+          <canvas id="barChart2"></canvas>
+        </div>
+        <div class="charts">
+          <canvas id="barChart3"></canvas>
+        </div>
+        <div class="charts">
+          <canvas id="barChart4"></canvas>
+        </div>
+        <div class="piecharts">
+          <canvas id="doughnut"></canvas>
+        </div>
+        <div class="empty"></div>
+        <script type="module" src="./charts.js"></script>
+      </main>
+    </div>
+  </body>
+</html>

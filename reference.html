@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Cyber Blackhole</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo.ico">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div id="navlink">
+          <a href="./index.html">
+            <div class="button">
+              <img src="./assets/grid.png" width="50px" />
+              <span class="navcaption">Grid</span>
+            </div>
+          </a>
+          <a href="./pattern.html">
+            <div class="button">
+              <img src="./assets/pattern.png" width="50px" />
+              <span class="navcaption">Pattern</span>
+            </div>
+            </a>
+          <a href="./reference.html">
+            <div class="button">
+              <img src="./assets/logic.png" width="50px" />
+              <span class="navcaption">Reference</span>
+            </div>
+          </a>
+        </div>
+      </nav>
+      <main>
+        <div class="text-tile">
+          <h2>Cyber Blackhole</h2></br>
+          <H5>Purposes</H5>
+          <p>
+            Establish a system that is capable of effectively mornitoring the web accessibilty of
+            users inside mainland China, collect, analyze and present the data in a way that 
+            could assist investors and other stakeholders in decision making.
+          </p>
+          <H5>Background</H5>
+          <p>
+            With China's growing economic power, its policy making/adjustment brings enormous impact
+            on global market. At the same sime, growing commercial entities are becoming dependent on China's 
+            domestic market. 
+            <br/><br/>
+            However, China's policy making process remains opaque compring with western counterparts,
+            and the enforcement of policy often detached from official legal/policy documents discloased, and
+            also subject to sudden change.
+            <br/><br/>
+            The control of information flow is often employed by Chinese adminstration for execution of policy. 
+            For example, when crypoto currency was declared illegal, platfroms for crypto trading and data were also being
+            blocked inside China. Following the logic, by analyzing the data of web accessibility, the sysem able to sensor possible
+            policy change in various sectors, acting as a complement for traditional market indicators.
+          </p>
+          <H5>Guide</H5>
+          <p>
+            <table>
+              <tr>
+                <th>Accessibility</th>
+                <th>Description</th>
+              </tr>
+              <tr>
+                <td><span class="tc">◉</span> Chinese Sites</td>
+                <td>Sites/services operated by enteties located within mainland China(with the exception of 
+                  TikTok).</td>
+              </tr>
+              <tr>
+                <td><span class="ta">◉</span> Available</td>
+                <td>Sites operated by enteties outside mainland China with unrestricted access.</td>
+              </tr>
+              <tr>
+                <td><span class="tb">◉</span> Blocked</td>
+                <td>Sites operated by enteties outside mainland China which are blocked of access.</td>
+              </tr>
+              <tr>
+                <td><span class="tp">◉</span> Restricted</td>
+                <td>Sites operated by enteties outside mainland China (with the exception of TikTok) that provide
+                  specilized versions of services to users in mainland China, or the serives of which are partially blocked.
+                </td>
+              </tr>
+              <tr>
+                <td><span class="ts">◉</span> IP Denied</td>
+                <td>Sites operated by enteties outside mainland China which deny users with mainland China IPs
+                  from accessing.
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <th>Categerization of Web Sites</th>
+                <th>Description</th>
+              </tr>
+              <tr>
+                <td>Portal</td>
+                <td>Sites offering combination of services, or search engines.</td>
+              </tr>
+              <tr>
+                <td>Commercial</td>
+                <td>Sites offering service online for commercial/profit reasons.</td>
+              </tr>
+              <tr>
+                <td>Trading</td>
+                <td>Sites acting as plaftform for b2c or c2c trading.</td>
+              </tr>
+              <tr>
+                <td>Sharing</td>
+                <td>Platform for sharing of content or social networks.</td>
+              </tr>
+              <tr>
+                <td>Newswire</td>
+                <td>News agency or press companies.</td>
+              </tr>
+              <tr>
+                <td>Entertainment</td>
+                <td>Sites realted to products or services of leisure.</td>
+              </tr>
+              <tr>
+                <td>Utility</td>
+                <td>Governmental or other sites for non-profit purposes.</td>
+              </tr>
+              <tr>
+                <td>Illegal</td>
+                <td>Sites providing services which are in contradiction with mainland China's laws.</td>
+              </tr>
+            </table>
+          </p>
+          <br/>
+          <H5>Third Party Libraries </H5>
+          <p>
+            This project use muuri library (https://github.com/haltu/muuri) to create the grid system, and 
+            chart.js (https://www.chartjs.org/) for the statistical charts.
+          </p>
+          <H5>Proposed Future Development</H5>
+          <table>
+            <tr>
+              <th>Issues</th>
+              <th>Proposed Improvements</th>
+            </tr>
+              <td>Subject of Research</td>
+              <td>Expand the number of monitored sites</td>
+            <tr>
+              <td>Mornitoring Method</td>
+              <td>Switch from manual testing to programmed periodic testing conducted by remote server(s).</td>
+            </tr>
+            <tr>
+              <td>Data Storage</td>
+              <td>Switch from static csv files to database.</td>
+            </tr>
+            <tr>
+              <td>Data Visualization: Timeline feature</td>
+              <td>Add timeline presentation to visualize the changes in the data throughout time.</td>
+            </tr>
+          </table>
+        </div>
+        <div class="empty"></div>
+      </main>
+    </div>
+  </body>
+</html>

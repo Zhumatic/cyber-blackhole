@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Cyber Blackhole</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo.ico">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div id="navlink">
+          <a href="./index.html">
+            <div class="button">
+              <img src="./assets/grid.png" width="50px" />
+              <span class="navcaption">Grid</span>
+            </div>
+          </a>
+          <a href="./pattern.html">
+          <div class="button">
+            <img src="./assets/pattern.png" width="50px" />
+            <span class="navcaption">Pattern</span>
+          </div>
+          </a>
+          <a href="./reference.html">
+            <div class="button">
+              <img src="./assets/logic.png" width="50px" />
+              <span class="navcaption">Reference</span>
+            </div>
+          </a>
+        </div>
+      </nav>
+      <main>
+        <div class="loader-wrapper">
+          <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+        <div class="grid-wrapper">
+          <div class="header">
+            Mainland China's Accessibility of Major Web Services
+          </div>
+          <div class="filters">
+            <label>Search</label>
+            <input
+              class="search-field"
+              type="text"
+              name="search"
+              placeholder="Site Name Contains"
+            />
+          </div>
+
+          <div class="filters">
+            <label>Category</label>
+            <select class="filter-field">
+              <option value="">All</option>
+              <option value="portal">Portal</option>
+              <option value="commercial">Commercial</option>
+              <option value="trading">Trading</option>
+              <option value="sharing">Sharing</option>
+              <option value="newswire">Newswire</option>
+              <option value="entertainment">Entertainment</option>
+              <option value="utility">Utility</option>
+              <option value="illegal">Illegal</option>
+            </select>
+          </div>
+          <div class="filters">
+            <label>Sort</label>
+            <select class="sort-field">
+              <option value="order">By Site Ranking</option>
+              <option value="title">By Site Name</option>
+              <option value="region">By Region</option>
+            </select>
+          </div>
+          <div class="textbox">
+            <span class="tc">◉</span> Chinese Sites
+            <span class="ta">◉</span> Available
+            <span class="tb">◉</span> Blocked
+            <span class="tp">◉</span> Restricted
+            <span class="ts">◉</span> IP Denied
+          </div>
+          <div id="grid"></div>
+          <div class="empty"></div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
